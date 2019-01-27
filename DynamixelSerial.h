@@ -67,7 +67,7 @@ public:
 
 protected:
 	void enableOpenDrain(bool enable);
-	bool sendInstruction(byte ID, byte instruction, byte* params, int paramsLength);
+	bool sendInstruction(unsigned char ID, unsigned char instruction, unsigned char* params, int paramsLength);
 	int readError();
 	int readResponse(int answerLength);
 
